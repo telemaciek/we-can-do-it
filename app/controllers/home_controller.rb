@@ -4,4 +4,8 @@ class HomeController < ApplicationController
 
   def about
   end
+
+  def tree
+    render :layout => 'tree'
+  end
 end
